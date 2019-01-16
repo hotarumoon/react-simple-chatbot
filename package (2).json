@@ -1,0 +1,25 @@
+{
+  "name": "donation-admin-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "ykb-react-scripts": "2.0.4",
+    "ykb-shell": "^3.7.0",
+    "ykb-ui": "^1.2.0",
+    "ykb-utils": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged"
+  }
+}
